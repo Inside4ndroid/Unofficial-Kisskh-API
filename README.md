@@ -30,6 +30,21 @@ mediaID is the id from the kisskh url eg: https://kisskh.co/Drama/The-Judge-from
 ### Endpoint GET /api/source/:episodeID
 
 This will retrieve the media source links and subtitles in json format.
-episodeID is the id from the kisskh url eg: https://kisskh.co/Drama/The-Judge-from-Hell?id=9441
+episodeID is the id from the previous get request eg episode 2 would be 163633
+
+```
+"episodes": [
+    {
+      "id": 163633,
+      "number": 2,
+      "sub": 5
+    },
+    {
+      "id": 163623,
+      "number": 1,
+      "sub": 5
+    }
+  ],
+```
 
 Thank you for visiting! Hope to see you again soon. 😊
