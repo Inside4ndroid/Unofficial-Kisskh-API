@@ -5,10 +5,10 @@
 ## How To Install
 ### To install locally or on any vps/dedicated server do the following :
 ```
-git clone 
+git clone https://github.com/Inside4ndroid/Unofficial-Kisskh-API.git
 ```
 ```
-cd
+cd Unofficial-Kisskh-API
 ```
 ```
 npm install
