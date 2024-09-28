@@ -1,5 +1,20 @@
 # Unoffical kisskh API! 👋
 
+## NOTE:
+
+This is an api for id's provided at https://kisskh.co/ and NOT Tmdb or Imdb
+
+you must use the ID from the kisskh url like this :
+
+so 
+```
+https://kisskh.co/Drama/Love-Next-Door?id=9301
+```
+would be 
+```
+http://localhost:port/api/9301
+```
+
 ---
 
 ## How To Install
